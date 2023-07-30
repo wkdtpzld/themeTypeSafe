@@ -11,6 +11,7 @@
     "plugins": ["@typescript-eslint", "react"],
     "extends": ["plugin:@typescript-eslint/recommended", "eslint:recommended", "plugin:react/recommended"],
     "rules": {
+        "no-undef": "warn",
         "@typescript-eslint/no-explicit-any": "off",
         "import/prefer-default-export": "off",
         "import/extensions": 0,
@@ -20,7 +21,8 @@
         "react-hooks/exhaustive-deps": 0,
         "no-console": 0,
         "no-unused-vars": "off",
-        "indent": ["error", 4, { "SwitchCase": 1 }]
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "react/no-unknown-property": ["error", { "ignore": ["css"] }]
     },
     "settings": {
         "import/resolver": {

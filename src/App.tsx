@@ -1,11 +1,11 @@
 import React from 'react';
-import {ThemeProvider} from "@emotion/react";
+import Button from "./components/button";
 
 function App() {
     return (
-        <ThemeProvider theme={}>
-
-        </ThemeProvider>
+        <div style={{display: 'flex'}}>
+            <Button themeId={"darkGray"} />
+        </div>
     );
 }
 
