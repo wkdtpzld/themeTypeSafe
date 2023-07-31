@@ -1,3 +1,9 @@
+export enum ThemeId {
+    LIGHT_GRAY = 'lightGray',
+    DARK_GRAY = 'darkGray'
+}
+
+
 export const palette = {
     GRAY_50: "#F8F9FA",
     GRAY_100: "#EBEDEF",
