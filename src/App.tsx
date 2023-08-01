@@ -1,15 +1,15 @@
 import React from 'react';
-import Button from "./components/Atom/Button/button";
-import {ThemeId} from "./utill/theme";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Home from "./Page/Home/home";
 
 
 function App() {
     return (
-        <div style={{display: 'flex'}}>
-            <Button themeId={ThemeId.DARK_GRAY} onClick={() => null}>
-                <h1> hello world </h1>
-            </Button>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path={'/'} element={<Home />}/>
+            </Routes>
+        </BrowserRouter>
     );
 }
 
