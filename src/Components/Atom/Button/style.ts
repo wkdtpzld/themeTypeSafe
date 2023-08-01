@@ -1,6 +1,6 @@
-import {theme} from "../../../utill/theme";
+import {theme} from "../../../Utill/theme";
 import styled from "@emotion/styled";
-import {themeId} from "../../../style/emotion";
+import {themeId} from "../../../Style/emotion";
 
 const breakPoint = [576, 768, 992, 1200];
 

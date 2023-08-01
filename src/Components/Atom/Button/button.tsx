@@ -1,8 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import React, {ButtonHTMLAttributes, ReactNode, useEffect, useState} from "react";
-import {themeId} from "../../../style/emotion";
+import {themeId} from "../../../Style/emotion";
 import {ButtonStyle} from "./style";
-import useDebounce from "../../../hook/useDebounce";
+import useDebounce from "../../../Hook/useDebounce";
 
 interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     themeId: themeId;

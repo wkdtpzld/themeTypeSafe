@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import {theme} from "./utill/theme";
+import {theme} from "./Utill/theme";
 import {ThemeProvider} from "@emotion/react";
-import "./style/index.css";
+import "./Style/index.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
